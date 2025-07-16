@@ -10,9 +10,10 @@ body {
   background-color: #f5f7fa;
   color: #333;
   padding: 20px;
+  line-height: 1.6;
 }
 
-/* ===== HEADINGS ===== */
+/* ===== TYPOGRAPHIE ===== */
 h1, h2 {
   color: #2c3e50;
   margin-bottom: 20px;
@@ -23,7 +24,7 @@ h1, h2 {
   text-align: center;
 }
 
-/* ===== CONTAINER ===== */
+/* ===== CONTAINER GÉNÉRAL ===== */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -31,11 +32,15 @@ h1, h2 {
   text-align: center;
 }
 
-/* ===== HEADER SPÉCIFIQUE ACCUEIL ===== */
+/* ===== ACCUEIL - TITRES ===== */
 .home-header h1 {
   font-size: 2.5rem;
   color: #004080;
   margin-bottom: 1rem;
+}
+
+.home-header p {
+  margin-bottom: 20px;
 }
 
 .logo-text {
@@ -45,7 +50,25 @@ h1, h2 {
 .subtitle {
   font-size: 1.2rem;
   color: #555;
+  margin-bottom: 2rem;
   line-height: 1.5;
+}
+
+/* ===== IMAGE D’ACCUEIL ===== */
+.accueil-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.accueil-image {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== FORMULAIRES ===== */
@@ -53,7 +76,7 @@ form {
   background-color: #fff;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   max-width: 500px;
   margin: 30px auto;
 }
@@ -209,6 +232,10 @@ nav ul li a:hover {
     padding: 0 1rem;
   }
 
+  .accueil-image {
+    max-width: 90%;
+  }
+
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -222,5 +249,6 @@ nav ul li a:hover {
 
   form {
     margin: 20px;
+    width: auto;
   }
 }
