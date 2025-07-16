@@ -1,3 +1,4 @@
+/* ===== RESET & BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -11,17 +12,43 @@ body {
   padding: 20px;
 }
 
-.question {
-  text-align: center;
-}
-
+/* ===== HEADINGS ===== */
 h1, h2 {
   color: #2c3e50;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Formulaires */
+.question {
+  text-align: center;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* ===== HEADER SPÉCIFIQUE ACCUEIL ===== */
+.home-header h1 {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+.logo-text {
+  color: #007acc;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ===== FORMULAIRES ===== */
 form {
   background-color: #fff;
   padding: 25px;
@@ -64,7 +91,7 @@ textarea {
   resize: vertical;
 }
 
-/* Boutons */
+/* ===== BOUTONS ===== */
 button,
 .btn {
   display: inline-block;
@@ -84,7 +111,7 @@ button:hover,
   background-color: #2980b9;
 }
 
-/* Messages d'alerte */
+/* ===== ALERTES ===== */
 .alert {
   padding: 12px;
   margin-bottom: 20px;
@@ -103,7 +130,7 @@ button:hover,
   color: #721c24;
 }
 
-/* Articles */
+/* ===== ARTICLES ===== */
 ul {
   list-style: none;
   padding: 0;
@@ -138,7 +165,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-/* Liens généraux */
+/* ===== LIENS GÉNÉRAUX ===== */
 a {
   color: #3498db;
 }
@@ -147,13 +174,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navigation accueil */
+/* ===== NAVIGATION ===== */
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -168,4 +196,31 @@ nav ul li a:hover {
   background-color: #000000;
   color: white;
   border-radius: 4px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media screen and (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    width: 100%;
+    text-align: center;
+  }
+
+  form {
+    margin: 20px;
+  }
 }

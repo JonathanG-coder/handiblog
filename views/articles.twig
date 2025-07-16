@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Articles</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
 
+  <main class="container">
     <h1>Nos articles</h1>
 
     {% if articles and articles.length > 0 %}
-        <ul>
-            {% for article in articles %}
-                <li>
-                    <h2>{{ article.titre }}</h2>
-                    <p>{{ article.description }}</p>
-                    <a href="/articles/{{ article.id }}">Lire plus</a>
-                </li>
-            {% endfor %}
-        </ul>
+      <ul>
+        {% for article in articles %}
+          <li>
+            <h2>{{ article.titre }}</h2>
+            <p>{{ article.description }}</p>
+            <a href="/articles/{{ article.id }}">Lire plus</a>
+          </li>
+        {% endfor %}
+      </ul>
     {% else %}
-        <p>Aucun article disponible pour le moment.</p>
+      <p>Aucun article disponible pour le moment.</p>
     {% endif %}
+  </main>
 
 </body>
 </html>
