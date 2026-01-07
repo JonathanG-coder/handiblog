@@ -1,19 +1,19 @@
-# 🧠 Handiblog
+# Handiblog
 
 **Projet** : Plateforme de lutte contre l'injustice liée au handicap  
 **Client** : Projet d'apprentissage 
 
-## 📝 Description
+## Description
 
 Handiblog est une plateforme web inclusive dédiée à la **sensibilisation** et à la **promotion des outils numériques adaptés aux personnes en situation de handicap**. Le site propose un espace ouvert à toutes les formes de handicap et encourage le **partage d'informations**, la **publication d’articles**, et la **diffusion de ressources accessibles**.
 
-## 🎯 Objectifs
+## Objectifs
 
 - Promouvoir l’usage des outils numériques adaptés aux personnes en situation de handicap.
 - Sensibiliser le grand public aux enjeux du handicap et aux solutions existantes.
 - Offrir un espace d'expression et de partage à toute personne concernée ou intéressée.
 
-## 🚀 Fonctionnalités principales
+## Fonctionnalités principales
 
 - ✅ **Publication d’articles** : Les utilisateurs authentifiés peuvent rédiger et publier librement.
 - ✅ **Lecture libre** : Les articles sont accessibles à tous les visiteurs, sans inscription.
@@ -22,13 +22,13 @@ Handiblog est une plateforme web inclusive dédiée à la **sensibilisation** et
   - Modération de contenus
   - Demande de reformulation en cas de propos inappropriés
 
-## 🔧 Fonctionnalités à développer
+##  Fonctionnalités à développer
 
-- 🔐 Connexion / Authentification
-- 🆕 Création de compte
-- 📢 Ajout et modification d’annonces liées aux outils et services adaptés
-- 📰 Newsletter : abonnement pour suivre l'actualité du site
-- 🧩 Formulaire de contact pour associations : faciliter les échanges et partenariats
+-  Connexion / Authentification
+-  Création de compte
+-  Ajout et modification d’annonces liées aux outils et services adaptés
+-  Newsletter : abonnement pour suivre l'actualité du site
+-  Formulaire de contact pour associations : faciliter les échanges et partenariats
 
 
 - **Technologies** :
@@ -36,7 +36,7 @@ Handiblog est une plateforme web inclusive dédiée à la **sensibilisation** et
   - CSS
   - JS
 
-## 🛠️ Back-End
+##  Back-End
 
 - **Langage** : JavaScript (ES6+) avec `type: module`
 - **Serveur** : Node.js avec **Express 5**
@@ -49,7 +49,7 @@ Handiblog est une plateforme web inclusive dédiée à la **sensibilisation** et
 - **Développement** : Redémarrage auto avec `nodemon`
 - **Diagramme de base de données** : conçu avec [dbdiagram.io](https://dbdiagram.io)
 
-## ⚙️ Installation
+##  Installation
 
 ### Prérequis
 
